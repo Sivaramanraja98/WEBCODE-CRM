@@ -5,7 +5,7 @@ const dbConfig = require("./app/config/db.config");
 const app = express();
 
 var corsOptions = {
-  origin: "*"
+  origin: "https://amazing-mousse-4d5cd0.netlify.app"
 };
 
 app.use(cors(corsOptions));
